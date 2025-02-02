@@ -66,12 +66,12 @@ const Chat = () => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder="Ask me a Python question..."
+            placeholder="Ask me a Python question.."
           />
           <button
             className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
             onClick={handleSend}
-          >
+          > 
             Send
           </button>
         </div>
